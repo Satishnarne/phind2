@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        /* Adjusted contrast for better visibility */
+        .contact-form input, .contact-form textarea, .contact-form button {
+            background-color: #e0e0e0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dallas Cars</h1>
+        <nav>
+            <a href="#">About</a> |
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <img src="car1.jpg" alt="Car 1">
+            <div class="product-info">
+                <p>Model: Model X</p>
+                <p>Color: Red</p>
+                <p>Type: Sedan</p>
+            </div>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" placeholder="Full Name" required>
+            
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" placeholder="Contact Number" required>
+            
+            <label for="emailId">Email ID:</label>
+            <input type="email" id="emailId" placeholder="Email ID" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2024 Dallas Cars. All rights reserved.
+    </footer>
+</body>
+</html>
